@@ -1,0 +1,63 @@
+<link href="style_pro.css" rel="stylesheet">
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="full-width bg-transparent">
+        
+
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-xs-12">
+      
+
+       
+
+        <div class="full-width">
+            <h1 class="text-center color">Edit Profile Snippet <a href="index.html" class="btn btn-primary">Back</a></h1>
+			
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="custom-form">
+                <div class="text-center bg-form">
+                    <div class="img-section">
+                        <img src="images/person.png" class="imgCircle" alt="Profile picture">
+                        <span class="fake-icon-edit" id="PicUpload" style="color: #ffffff;"><span class="glyphicon glyphicon-camera camera"></span></span>
+                    <div class="col-lg-12">
+                        <h4 class="text-right col-lg-12"><span class="glyphicon glyphicon-edit"></span> Edit Profile</h4>
+                        <input type="checkbox" class="form-control" id="checker">
+                    </div>
+                    </div>
+                    <input type="file" id="image-input" onchange="readURL(this);" accept="image/*" disabled class="form-control form-input Profile-input-file" >
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <input type="text" class="form-control form-input" value="ayush bhargava" placeholder="Name" disabled id="name">
+                    <span class="glyphicon glyphicon-user input-place"></span>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <input type="text" class="form-control form-input" value="ayush.udml@gmail.com" placeholder="Email ID" disabled id="email">
+                    <span class="glyphicon glyphicon-envelope input-place"></span>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <input type="text" class="form-control form-input" value="9643620***" placeholder="Phone Number" disabled id="phone">
+                    <span class="glyphicon glyphicon-earphone input-place"></span>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <input type="text" class="form-control form-input" value="Jaipur, India" placeholder="Address" disabled id="place">
+                    <span class="glyphicon glyphicon-map-marker input-place"></span>
+                </div>
+                <div class="col-lg-12 col-md-12 text-center">
+                    <button class="btn btn-info btn-lg custom-btn" id="submit" disabled><span class="glyphicon glyphicon-save"></span> Save</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+        
+	</div>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
